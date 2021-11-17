@@ -187,8 +187,7 @@ cars_2019t %>%
   e_labels(fontSize = 16, fontWeight ='bold', position = "right", offset=c(10, 0))
 ```
 
-<div id="htmlwidget-ab480efc5e464e262940" style="width:100%;height:500px;" class="echarts4r html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ab480efc5e464e262940">{"x":{"theme":"london","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"xAxis":[{"show":true,"splitLine":{"show":false}}],"yAxis":[{"data":["Battery Electric","Plugin Hybrid","Mild Hybrid","Petrol","Diesel"],"type":"category","boundaryGap":true,"splitLine":{"show":false}}],"legend":{"data":["Units"],"show":true,"type":"plain"},"series":[{"data":[{"value":[" 2","Battery Electric"]},{"value":[" 1","Plugin Hybrid"]},{"value":[" 4","Mild Hybrid"]},{"value":["59","Petrol"]},{"value":["34","Diesel"]}],"name":"Units","type":"pictorialBar","yAxisIndex":0,"xAxisIndex":0,"symbolRepeat":true,"z":-1,"symbolSize":[20,20],"symbol":"image://https://img.icons8.com/offices/30/000000/car.png","label":{"show":true,"position":"right","fontSize":16,"fontWeight":"bold","offset":[10,0]}}],"title":[{"text":"Cars bought in Germany in 2019","subtext":"Source: OurWorldInData"}]},"dispose":true},"evals":[],"jsHooks":[]}</script>
+![](Desarrollo_files/figure-gfm/cars.png)<!-- -->
 
 ## Third visualization - spyral plot
 
