@@ -1,12 +1,10 @@
 Germany - an overview
 ================
-Mikel Tobar
-9/11/2021
+
 
 ## Intro
 
-In this document, we’ll create a visualization using R’s rCharts
-package.
+In this document, we’ll create 3 data visualizations about different statistics from Germany.
 
 ``` r
 library(ggplot2)
