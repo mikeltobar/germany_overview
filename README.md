@@ -83,7 +83,7 @@ ggplot(ger)+
         legend.justification = 'center')
 ```
 
-![](Desarrollo_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](images/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 ## Second visualization - isotype plot
 
@@ -187,8 +187,7 @@ cars_2019t %>%
   e_labels(fontSize = 16, fontWeight ='bold', position = "right", offset=c(10, 0))
 ```
 
-<div id="htmlwidget-105ca5ead87a97545da9" style="width:100%;height:500px;" class="echarts4r html-widget"></div>
-<script type="application/json" data-for="htmlwidget-105ca5ead87a97545da9">{"x":{"theme":"london","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"xAxis":[{"show":true,"splitLine":{"show":false}}],"yAxis":[{"data":["Electric","Plugin Hybrid","Mild Hybrid","Petrol","Diesel"],"type":"category","boundaryGap":true,"splitLine":{"show":false}}],"legend":{"data":["Units"],"show":true,"type":"plain"},"series":[{"data":[{"value":[" 2","Electric"]},{"value":[" 1","Plugin Hybrid"]},{"value":[" 4","Mild Hybrid"]},{"value":["59","Petrol"]},{"value":["34","Diesel"]}],"name":"Units","type":"pictorialBar","yAxisIndex":0,"xAxisIndex":0,"symbolRepeat":true,"z":-1,"symbolSize":[20,20],"symbol":"image://https://img.icons8.com/offices/30/000000/car.png","label":{"show":true,"position":"right","fontSize":16,"fontWeight":"bold","offset":[10,0]}}],"title":[{"text":"Cars bought in Germany in 2019","subtext":"Source: OurWorldInData"}]},"dispose":true},"evals":[],"jsHooks":[]}</script>
+![](images/figure-gfm/cars.PNG)<!-- -->
 
 ## Third visualization - spyral plot
 
@@ -241,7 +240,7 @@ ggplot(ger_plot, aes(x= day_num %% 365, xend = day_num %% 365 + 2.5, y = day_num
   theme(axis.ticks.y = element_blank(), panel.border = element_blank(), plot.title = element_text(face="bold", size=18), panel.grid.minor.x=element_line(colour="grey60", size=10000))
 ```
 
-![](Desarrollo_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](images/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
 
 ## Bibliography
 
