@@ -187,7 +187,7 @@ cars_2019t %>%
   e_labels(fontSize = 16, fontWeight ='bold', position = "right", offset=c(10, 0))
 ```
 
-![](Desarrollo_files/figure-gfm/cars.png)<!-- -->
+![](Desarrollo_files/figure-gfm/cars.PNG)<!-- -->
 
 ## Third visualization - spyral plot
 
